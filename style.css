@@ -187,8 +187,40 @@ body {
   margin-bottom: 1rem;
 }
 
+.skills-list {
+  margin: 1rem 0 2rem;
+  padding-left: 1.2rem;
+}
+
+.skills-list li {
+  margin-bottom: 0.6rem;
+}
+
+.section h3 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
 .section.dark {
   background: var(--dark-bg);
+}
+
+.contact-list {
+  margin-top: 1.5rem;
+}
+
+.contact-list p {
+  margin-bottom: 0.8rem;
+}
+
+.contact-list a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
 }
 
 /* =====================
